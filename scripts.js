@@ -25,9 +25,9 @@ function geoLocateMe() {
               jsonDisplay = document.getElementById("json-display");
         jsonDisplay.innerHTML = "<h1>" + tempMessage + mainWeather + "</h1>";
         if (fahrenheit > 50) {
-          photoDisplay.innerHTML = "<img class=\"weather-pic\" src=\"photos/sunnyDay.jpg\"/>";
+          photoDisplay.innerHTML = "<img class=\"weather-pic\" src=\"sunnyDay.jpg\"/>";
         } else {
-          photoDisplay.innerHTML = "<img class=\"weather-pic\" src=\"photos/coldDay.jpg\"/>";
+          photoDisplay.innerHTML = "<img class=\"weather-pic\" src=\"coldDay.jpg\"/>";
         }
         console.log(celToFahrMessage);
         console.log(photoDisplay);
