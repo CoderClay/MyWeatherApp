@@ -1,0 +1,39 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" media="screen" title="no title">
+  <script src="scripts.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Local Weather App</title>
+</head>
+<body>
+
+      <!-- The div that displays the large weather-related background-image -->
+      <div id="photo-display"></div>
+
+      <!-- The div that displays the coordinate data -->
+      <!-- Inside this div are the welcome screen and the button which initiates the application  -->
+            <!-- These elements are placed inside this div so that they are cleared when the function is called -->
+      <div id="info-display">
+        <div class="row">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6" id="welcome-screen">
+            <h1>Welcome to your very own<br>personal weather app.</h1>
+            <button id="coord-fetch" class="btn btn-primary" onclick="geoLocateMe()">What's The Weather Like?</button>
+          </div>
+          <div class="col-lg-3"></div>
+        </div>
+      </div>
+
+      <!-- This div displays the weather related data that has come back from the json -->
+      <div id="json-display"></div>
+
+
+
+
+
+</body>
+</html>

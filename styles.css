@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: ;
+}
+
+/*==========================================================================
+============================HARD CODED HTML=================================
+==========================================================================*/
+#welcome-screen {
+  left: 0;
+  top: 10vh;
+}
+
+
+/*The outter most div hard coded in the html*/
+/*Container to hold the photo as a background*/
+#photo-display {
+  position: relative;
+  width: 100vw;
+}
+
+/*Hardcoded HTML div to hold all of the information in one box*/
+#info-display {
+  position: absolute;
+  right: 30vw;
+  top: 100px;
+  z-index: 999;
+  background-color: ;
+}
+
+/*Hardcoded div to display the output coordinates from the window query*/
+#coord-box {
+
+}
+
+/*Hardcoded button to initiate the search*/
+#coord-fetch {
+  position: relative;
+  display: block;
+}
+
+/*Hard coded html to display the API results*/
+#json-display {
+  position: absolute;
+  color: black;
+  background-color: rgba(208, 193, 236, 0.58);
+  right: 30vw;
+  top: 250px;
+}
+
+
+/*=========================================================================
+=========================JavaScript HTML Injection=========================
+=========================================================================*/
+
+
+/*class attached to photos that are dynamically injected into the background*/
+.weather-pic {
+  width: 100vw;
+}
